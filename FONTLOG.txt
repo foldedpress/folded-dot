@@ -1,0 +1,104 @@
+FONTLOG for 접힌점체 (Folded Dot)
+==================================
+
+This file provides detailed information on the Folded Dot font software.
+이 파일은 접힌점체 글꼴 소프트웨어의 기록이다.
+
+
+Basic Font Information / 기본 정보
+----------------------------------
+
+접힌점체(Folded Dot)는 접힌프레스 워드마크의 점 격자를 넓혀 만든 글꼴이다.
+모든 글자를 크기가 같은 점으로만 찍고, 받침과 가로 모음은 첫 단 아래로 접혀 내려간다.
+굵기 축(wght 200~800)은 점의 반지름만 바꾸고, 격자 한 칸은 늘 100(1000 기준)이다.
+
+Folded Dot is a dot typeface generalized from the Folded Press wordmark.
+Every glyph is built from dots of a single size. Final consonants and horizontal
+vowels fold down below the first row. The weight axis (wght 200-800) changes only
+the dot radius; the grid pitch stays at 100 units per 1000 UPM.
+
+글자: 한글 11,172자, 한글 자모 161자, 라틴 글자 417자, 그리스 69자, 키릴 66자,
+KS X 1001 기호 전부(가나 169자는 넣지 않음), KS 한자 4,888자. 모두 17,550자, 글리프 17,539개.
+
+Version 2.200, 2026-11-20
+License: SIL Open Font License 1.1 (OFL.txt)
+No Reserved Font Name is declared for this font.
+
+
+AI
+--
+
+AI의 도움을 받아 만들었다. 방향과 규칙은 내가 정했고, 점 배치와 글리프 생성은 AI와 함께했다.
+
+Made with the help of AI. Han Haram set the direction and the rules; the dot placement
+and glyph generation were done together with AI.
+
+
+Sources / 출처
+--------------
+
+- 한자 4,888자와 KS X 1001 기호 아홉 자(∂ ∝ ∮ ♨ ☏ ☎ ☜ ☞ ㉿)는 Noto Sans CJK KR의
+  글자 모양에서 뼈대를 뽑아, 이 글꼴의 규칙대로 점을 다시 찍었다.
+  Noto Sans CJK KR: Copyright 2014-2021 Adobe (http://www.adobe.com/),
+  with Reserved Font Name 'Source'. SIL Open Font License 1.1.
+  The Hanja (4,888) and nine KS X 1001 symbols above were made by extracting
+  skeletons from Noto Sans CJK KR and re-dotting them with the rules of this font.
+- 그 밖의 글자는 모두 접힌프레스 워드마크의 점 격자 위에서 새로 짰다.
+  All other glyphs were drawn anew on the dot grid of the Folded Press wordmark.
+
+
+ChangeLog / 바뀐 내용
+---------------------
+
+2026-11-20 (Version 2.200)
+- 커닝 추가. Added kerning.
+- 라트비아어 글자 넷의 부호를 고쳤다. Ļ Ģ는 아래 쉼표를 한 줄 띄워 떼고, ļ는 줄기 바로 밑 점을 빼
+  j처럼 보이지 않게 했다. ģ는 g의 꼬리와 겹쳐 보이지 않던 부호를 위의 세로 두 점(뒤집힌 쉼표)으로 옮겼다.
+  글자 폭은 그대로다. Ķ ķ Ņ ņ Ŗ ŗ는 쉼표가 이미 떨어져 있어 그대로 두었다.
+  Fixed the Latvian marks: detached comma below on Ļ Ģ ļ, turned comma above on ģ. Advance widths unchanged.
+
+2026-11-19 (Version 2.100)
+- 한국어 이름을 '접힌 점'에서 '접힌점체'로 바꿨다. 영문 이름 Folded Dot과 PostScript 이름
+  FoldedDot-*는 그대로다.
+  Korean family name changed to 접힌점체. Folded Dot and the FoldedDot-* PostScript
+  names are unchanged.
+- 고정 굵기 일곱 개를 OTF(CFF)로도 낸다. 점은 3차 곡선으로 옮기고, 겹치는 점(Bold, ExtraBold)은
+  하나의 윤곽으로 합쳤다.
+  Added CFF-based OTF files for the seven static weights (overlaps removed).
+- 저작권 고지(name ID 0)에 Noto Sans CJK KR(Adobe)의 고지를 더했다.
+  Added the Adobe copyright notice of Noto Sans CJK KR to name ID 0.
+- 부호나 끝점이 글자 폭 밖으로 나가 이웃 글자의 점과 닿던 21자의 폭을 넓혔다.
+  점 배치는 그대로다: î ï ĩ ī ĭ ǐ ḯ ļ Ą ą Ę ę Į Ų ų Ǫ ǫ Ǭ ǭ ★ ☆
+  Widened 21 glyphs whose marks reached into neighbouring glyphs (dots unchanged).
+- į(U+012F)에 빠져 있던 위의 점을 되살렸다.
+  Restored the missing dot on į (U+012F).
+- 맥 플랫폼 이름 기록과 ltag 표를 뺐다. 고정 굵기의 STAT 표를 새로 짰다(2.000은 지워진 이름
+  번호를 가리켰다). 가변 글꼴의 이름 있는 인스턴스에 PostScript 이름을 붙였다.
+  Removed Mac name records and the ltag table; rebuilt STAT in the static fonts;
+  added PostScript names to the named instances.
+- head 판 번호를 이름 표의 판과 맞췄다. 밑줄(post), 취소선, 위첨자와 아래첨자(OS/2) 값을 넣었다.
+  x높이와 대문자 높이를 굵기별 실제 높이로 맞췄다.
+  Synced head.fontRevision; set underline, strikeout, sub- and superscript metrics;
+  x-height and cap height now follow each weight.
+- 힌팅 없는 TTF에 드롭아웃 제어(prep 표)를 넣었다. 작은 크기의 흑백 렌더링에서 가는 점이 사라지지 않게 한다.
+  Added smart dropout control (prep table) to the unhinted TTFs.
+- ExtraLight, Light, Medium, SemiBold, ExtraBold 고정 굵기에 fsSelection REGULAR 비트를 켰다.
+  Set the fsSelection REGULAR bit in the five non-RIBBI static weights.
+- 점 윤곽을 트루타입 관례(바깥 시계 방향)로 돌렸다. 보이는 모양은 같다.
+  The dot contour now runs clockwise (TrueType convention). Rendering is unchanged.
+- .notdef에서 좌표가 똑같이 겹친 점을 지웠다. 코드 페이지에서 번체 중국어(Big5) 표시를 뺐다.
+  Removed duplicate components in .notdef; dropped the Big5 code page bit.
+
+2026-11-19 (Version 2.000)
+- 가변 글꼴(wght 200~800)과 고정 굵기 TTF 일곱 개, 웹용 woff2.
+  First variable release (wght 200-800) with seven static TTFs and a WOFF2.
+
+
+Acknowledgements / 만든 사람
+----------------------------
+
+N: Han Haram (한하람)
+D: Design, direction and rules / 디자인, 방향과 규칙
+
+N: Folded Press (접힌프레스)
+D: Publisher / 펴낸 곳

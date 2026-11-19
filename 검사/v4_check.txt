@@ -1,0 +1,37 @@
+v3 → v4 복사 3.9 s
+TTF/FoldedDot[wght].ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 6.8s, rss 137MB
+TTF/FoldedDot-ExtraLight.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 9.6s, rss 138MB
+TTF/FoldedDot-Light.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 12.4s, rss 138MB
+TTF/FoldedDot-Regular.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 15.6s, rss 139MB
+TTF/FoldedDot-Medium.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 18.7s, rss 140MB
+TTF/FoldedDot-SemiBold.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 21.6s, rss 143MB
+TTF/FoldedDot-Bold.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 24.2s, rss 143MB
+TTF/FoldedDot-ExtraBold.ttf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 27.1s, rss 143MB
+OTF/FoldedDot-ExtraLight.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 29.7s, rss 144MB
+OTF/FoldedDot-Light.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 32.7s, rss 144MB
+OTF/FoldedDot-Regular.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 36.2s, rss 148MB
+OTF/FoldedDot-Medium.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 39.6s, rss 148MB
+OTF/FoldedDot-SemiBold.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 42.8s, rss 148MB
+OTF/FoldedDot-Bold.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 46.2s, rss 179MB
+OTF/FoldedDot-ExtraBold.otf: 클래스 쌍 15437, 예외 251, GPOS 새로 지음, 49.7s, rss 203MB
+woff2 0.71 MB
+FONTLOG, 사용안내 판 번호와 커닝 줄
+검증
+  TTF/FoldedDot[wght].ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-VF', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-ExtraLight.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-ExtraLight', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-Light.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Light', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-Regular.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Regular', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-Medium.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Medium', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-SemiBold.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-SemiBold', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-Bold.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Bold', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  TTF/FoldedDot-ExtraBold.ttf: 바뀐 표 ['GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-ExtraBold', 'Version 2.200']), CFF None, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-ExtraLight.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-ExtraLight', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-Light.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Light', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-Regular.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Regular', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-Medium.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Medium', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-SemiBold.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-SemiBold', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-Bold.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-Bold', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  OTF/FoldedDot-ExtraBold.otf: 바뀐 표 ['CFF ', 'GPOS', 'head', 'name'], 판 (2.2, ['2.200;FLDP;FoldedDot-ExtraBold', 'Version 2.200']), CFF 2.200, HarfBuzz 18431짝 어긋남 0, OTS File sanitized successfully! 
+  web/FoldedDot[wght].woff2: 가변 TTF 와 GPOS GSUB name cmap hmtx 같음 True, OTS File sanitized successfully!
+zip /mnt/user-data/outputs/접힌점체_FoldedDot_v4.zip 29.2 MB 압축 검사 ok
+모두 통과 546.3 s
