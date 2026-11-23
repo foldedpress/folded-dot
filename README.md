@@ -6,7 +6,7 @@
 
 AI의 도움을 받아 만들었다. 방향과 규칙은 내가 정했고, 점 배치와 글리프 생성은 AI와 함께했다.
 
-- **내려받기**: [folded-dot-main.zip](https://github.com/foldedpress/folded-dot/archive/refs/heads/main.zip) (늘 최신 판. OTF, TTF, 가변 TTF, 웹용 WOFF2, 사용안내, 견본 PDF)
+- **내려받기**: [FoldedDot.zip](https://github.com/foldedpress/folded-dot/releases/latest/download/FoldedDot.zip) (늘 최신 판. OTF, TTF, 가변 TTF, 웹용 WOFF2, 사용안내, 견본 PDF)
 - **소개 페이지**: [notjust.co.kr/folded-dot](https://notjust.co.kr/folded-dot/)
 - **라이선스**: [SIL 오픈 폰트 라이선스 1.1](OFL.txt). 누구나 무료로 쓰고, 고치고, 다시 나눌 수 있다. 글꼴 파일만 따로 팔 수는 없다.
 
@@ -137,7 +137,7 @@ Folded Dot is a Korean dot typeface. Every glyph is built from dots of a single 
 
 Made with the help of AI. Han Haram set the direction and the rules; the dot placement and glyph generation were done together with AI.
 
-- **Download**: [folded-dot-main.zip](https://github.com/foldedpress/folded-dot/archive/refs/heads/main.zip) (always the latest version. OTF, TTF, variable TTF, WOFF2, usage notes in Korean, specimen PDF)
+- **Download**: [FoldedDot.zip](https://github.com/foldedpress/folded-dot/releases/latest/download/FoldedDot.zip) (always the latest version. OTF, TTF, variable TTF, WOFF2, usage notes in Korean, specimen PDF)
 - **License**: [SIL Open Font License 1.1](OFL.txt)
 
 | | |
