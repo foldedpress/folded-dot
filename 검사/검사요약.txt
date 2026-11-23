@@ -1,8 +1,24 @@
 접힌점체 Folded Dot 품질 검사 요약
-2026-11-19 (2.100), 2026-11-20 (2.200 마감)
+2026-11-19 (2.100), 2026-11-20 (2.200 마감), 2026-11-23 (2.300 기울임꼴)
 
 이 폴더의 교정쇄 01~10과 아래 1~9번, '앱 호환에서 남는 위험'의 숫자는 커닝을 넣기 전 2.100 기준이다.
 2.200에서는 커닝을 넣었고(검증 기록 v4_check.txt), 라트비아어 글자 넷의 부호를 고쳤다. 2.200에서 새로 본 것은 바로 아래에 적었다.
+
+
+00. 2.300 기울임꼴 검사 (2026-11-23)
+
+만든 법: 모든 글리프가 점 하나('dot')를 부르는 composite라서, 점 모양은 그대로 두고 component 위치만 x += 0.2 × (y − 24)로 옮겼다.
+  첫 단(y 24)은 제자리. 같은 높이의 점은 같은 만큼 밀리므로 GPOS(커닝)와 글자 폭은 바로선 꼴 그대로 둔다.
+  OTF: ExtraLight~SemiBold는 점마다 'rmoveto + callgsubr'인 바로선 OTF의 시작점만 같은 식으로 옮겼다.
+  Bold, ExtraBold는 기울인 TTF의 점을 skia-pathops로 합쳐 3차 곡선으로 옮기고 cffsubr로 서브루틴을 묶었다
+  (BoldItalic 7.9MB, ExtraBoldItalic 7.3MB. 세로 이웃 점이 1.02칸으로 벌어져 합쳐지는 곳이 줄어 바로선 꼴보다 작다).
+바로선 꼴: 글리프는 그대로. head 판, 이름 표 3, 5번, STAT(ital 축을 더함)만 바뀌었다.
+이름: 고정 굵기는 RIBBI 규칙(Regular, Bold, Italic, Bold Italic이 '접힌점체' 한 가족, 나머지는 '접힌점체 Light' 같은 가족에
+  바로선 꼴과 Italic), typographic 이름(16, 17)은 '접힌점체'와 'Light Italic'. fsSelection ITALIC, macStyle italic,
+  post.italicAngle −11.31, hhea caret 1000/200. 가변 기울임꼴은 FoldedDot-Italic[wght].ttf, 인스턴스 이름 'Light Italic' 등.
+OTS: 기울임꼴 TTF 일곱, 가변 하나, OTF 일곱과 2.300 바로선 파일 열여섯, woff2 둘 모두 통과.
+TTF와 OTF 그림 비교(80px, 같은 견본 글): 기울임꼴의 차이는 바로선 꼴의 같은 비교와 같은 크기(안티에일리어싱 차이)다.
+세로획: 위아래 이웃 점 중심 거리 101.98. Bold(반지름 51)에서 0.02 겹쳐 겨우 맞닿고, ExtraBold(60)에서 이어진다.
 
 
 0. 2.200 마감 검사

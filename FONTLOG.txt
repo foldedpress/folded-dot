@@ -11,16 +11,18 @@ Basic Font Information / 기본 정보
 접힌점체(Folded Dot)는 접힌프레스 워드마크의 점 격자를 넓혀 만든 글꼴이다.
 모든 글자를 크기가 같은 점으로만 찍고, 받침과 가로 모음은 첫 단 아래로 접혀 내려간다.
 굵기 축(wght 200~800)은 점의 반지름만 바꾸고, 격자 한 칸은 늘 100(1000 기준)이다.
+기울임꼴(Italic)은 점 모양은 그대로 두고 점이 놓이는 격자만 기울였다(한 단에 20, 11.31°).
 
 Folded Dot is a dot typeface generalized from the Folded Press wordmark.
 Every glyph is built from dots of a single size. Final consonants and horizontal
 vowels fold down below the first row. The weight axis (wght 200-800) changes only
 the dot radius; the grid pitch stays at 100 units per 1000 UPM.
+The italics keep every dot round and slant only the grid (20 units per row, 11.31°).
 
 글자: 한글 11,172자, 한글 자모 161자, 라틴 글자 417자, 그리스 69자, 키릴 66자,
 KS X 1001 기호 전부(가나 169자는 넣지 않음), KS 한자 4,888자. 모두 17,550자, 글리프 17,539개.
 
-Version 2.200, 2026-11-20
+Version 2.300, 2026-11-23
 License: SIL Open Font License 1.1 (OFL.txt)
 No Reserved Font Name is declared for this font.
 
@@ -49,6 +51,19 @@ Sources / 출처
 
 ChangeLog / 바뀐 내용
 ---------------------
+
+2026-11-23 (Version 2.300)
+- 기울임꼴을 더했다. 고정 굵기 일곱(OTF, TTF)과 가변 글꼴 FoldedDot-Italic[wght].ttf, 웹용 woff2.
+  점은 그대로 동그랗고, 점이 놓이는 격자만 한 단(100) 올라갈 때마다 오른쪽으로 20씩 민다(11.31°).
+  첫 단(기준선 위 점 줄)은 제자리다. 같은 높이의 점은 모두 같은 만큼 밀리므로 글자 폭, 글자 사이, 커닝은
+  바로선 꼴과 같다. 위아래 이웃 점의 간격은 1칸에서 1.02칸이 되어, Bold에서 세로획의 점이 겨우 맞닿는다.
+  Added italics: seven static weights (OTF, TTF), a variable FoldedDot-Italic[wght].ttf and WOFF2.
+  Dots stay round; the grid is slanted by 20 units per row (11.31°). Widths, spacing and kerning are unchanged.
+- 바로선 꼴과 기울임꼴을 한 가족으로 묶었다. 이름 표와 fsSelection, macStyle, post의 기울기, STAT의 ital 축.
+  Cmd+I(Ctrl+I)를 누르면 프로그램이 글자를 억지로 눕히지 않고 이 기울임꼴을 부른다.
+  Linked uprights and italics as one family (name table, style bits, italic angle, STAT ital axis).
+- 바로선 꼴의 글리프는 그대로다. 판 번호와 STAT만 바뀌었다.
+  Upright glyphs are unchanged; only the version and STAT changed.
 
 2026-11-20 (Version 2.200)
 - 커닝 추가. Added kerning.
